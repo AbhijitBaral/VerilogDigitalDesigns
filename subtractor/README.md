@@ -15,3 +15,9 @@ A B Bin | D Bout
 1	1	 0  | 0	  0  
 1	1	 1	| 1	  1  
 
+Full Subtractor Schematic
+![fs](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/subtractor/Schematic/fs.png)  
+  
+  
+Waveform    
+![wf](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/subtractor/Schematic/waveform.png)
