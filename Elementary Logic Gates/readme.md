@@ -1,4 +1,4 @@
-#Elementary Logic Gates  
+# Elementary Logic Gates  
   
 WaveForm  
 ![waveform](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Elementary%20Logic%20Gates/Schematic/pics/Waveform.png)
