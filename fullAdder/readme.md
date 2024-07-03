@@ -10,8 +10,20 @@ in another file "halfAdder.v".
 -tbFullAdder.vcd - Dump file for waveform visualization  
 
   
-HA
-![HA](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/fullAdder/Schematic/ha.png)
+HA  
   
-FA
+  
+![HA](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/fullAdder/Schematic/ha.png)
+
+   
+FA  
+
+    
 ![FA](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/fullAdder/Schematic/fa.jpg)
+  
+
+Waveform
+   
+  
+![WaveForm](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/fullAdder/Schematic/waveform.png)  
+    
