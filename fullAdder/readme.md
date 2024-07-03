@@ -16,7 +16,7 @@ HA
 ![HA](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/fullAdder/Schematic/ha.png)
 
    
-FA  
+
 
     
 ![FA](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/fullAdder/Schematic/fa.jpg)
