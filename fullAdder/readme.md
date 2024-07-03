@@ -1,4 +1,6 @@
-# Full Adder
+# Full Adder  
+
+Performs 1 bit Binary Arithmetic Addition on inputs in1, in2 and Cin(Carry input)  
 
 The Full Adder is written in Structural description by instantiating two Half Adder modules, which are described as "halfAdder"
 in another file "halfAdder.v". 
