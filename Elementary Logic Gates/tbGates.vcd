@@ -1,0 +1,104 @@
+$date
+	Wed Jul  3 18:42:04 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tbGates $end
+$var wire 1 ! notA $end
+$var wire 1 " AorB $end
+$var wire 1 # AnorB $end
+$var wire 1 $ AnandB $end
+$var wire 1 % AexorB $end
+$var wire 1 & AandB $end
+$var reg 1 ' A $end
+$var reg 1 ( B $end
+$scope module instAND $end
+$var wire 1 ' A $end
+$var wire 1 & AndG $end
+$var wire 1 ( B $end
+$upscope $end
+$scope module instEXOR $end
+$var wire 1 ' A $end
+$var wire 1 ( B $end
+$var wire 1 % ExORG $end
+$upscope $end
+$scope module instNAND $end
+$var wire 1 ' A $end
+$var wire 1 ( B $end
+$var wire 1 ) x $end
+$var wire 1 $ NandG $end
+$scope module instanceAnd $end
+$var wire 1 ' A $end
+$var wire 1 ) AndG $end
+$var wire 1 ( B $end
+$upscope $end
+$scope module instanceNot $end
+$var wire 1 ) X $end
+$var wire 1 $ nX $end
+$upscope $end
+$upscope $end
+$scope module instNOT $end
+$var wire 1 ' X $end
+$var wire 1 ! nX $end
+$upscope $end
+$scope module instNor $end
+$var wire 1 ' A $end
+$var wire 1 ( B $end
+$var wire 1 * x $end
+$var wire 1 # NorG $end
+$scope module instanceNor $end
+$var wire 1 # nX $end
+$var wire 1 * X $end
+$upscope $end
+$scope module instanceOr $end
+$var wire 1 ' A $end
+$var wire 1 ( B $end
+$var wire 1 * OrG $end
+$upscope $end
+$upscope $end
+$scope module instOR $end
+$var wire 1 ' A $end
+$var wire 1 ( B $end
+$var wire 1 " OrG $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0*
+0)
+0(
+0'
+0&
+0%
+1$
+1#
+0"
+1!
+$end
+#20
+0#
+1%
+0!
+1*
+1"
+1'
+#30
+1!
+1(
+0'
+#40
+0$
+1&
+0%
+1)
+0!
+1'
+#50

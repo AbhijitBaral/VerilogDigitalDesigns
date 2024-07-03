@@ -1,0 +1,150 @@
+#! /usr/local/bin/vvp
+:ivl_version "13.0 (devel)" "(s20221226-518-g94d9d1951)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/local/lib/ivl/system.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/local/lib/ivl/v2005_math.vpi";
+:vpi_module "/usr/local/lib/ivl/va_math.vpi";
+S_0x55a527710ed0 .scope module, "tbGates" "tbGates" 2 1;
+ .timescale 0 0;
+v0x55a5277318f0_0 .var "A", 0 0;
+v0x55a527731990_0 .net "AandB", 0 0, L_0x55a527732050;  1 drivers
+v0x55a527731a80_0 .net "AexorB", 0 0, L_0x55a527732490;  1 drivers
+v0x55a527731b80_0 .net "AnandB", 0 0, L_0x55a5277323e0;  1 drivers
+v0x55a527731c70_0 .net "AnorB", 0 0, L_0x55a527732280;  1 drivers
+v0x55a527731db0_0 .net "AorB", 0 0, L_0x55a527732110;  1 drivers
+v0x55a527731e50_0 .var "B", 0 0;
+v0x55a527731ef0_0 .net "notA", 0 0, L_0x55a527731f90;  1 drivers
+S_0x55a527711060 .scope module, "instAND" "And" 2 8, 3 1 0, S_0x55a527710ed0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "AndG";
+L_0x55a527732050 .functor AND 1, v0x55a5277318f0_0, v0x55a527731e50_0, C4<1>, C4<1>;
+v0x55a5277150e0_0 .net "A", 0 0, v0x55a5277318f0_0;  1 drivers
+v0x55a527715ed0_0 .net "AndG", 0 0, L_0x55a527732050;  alias, 1 drivers
+v0x55a52772ec20_0 .net "B", 0 0, v0x55a527731e50_0;  1 drivers
+S_0x55a52772ed40 .scope module, "instEXOR" "Exor" 2 12, 4 1 0, S_0x55a527710ed0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "ExORG";
+L_0x55a527732490 .functor XOR 1, v0x55a5277318f0_0, v0x55a527731e50_0, C4<0>, C4<0>;
+v0x55a52772ef90_0 .net "A", 0 0, v0x55a5277318f0_0;  alias, 1 drivers
+v0x55a52772f050_0 .net "B", 0 0, v0x55a527731e50_0;  alias, 1 drivers
+v0x55a52772f0f0_0 .net "ExORG", 0 0, L_0x55a527732490;  alias, 1 drivers
+S_0x55a52772f1d0 .scope module, "instNAND" "Nand" 2 11, 5 1 0, S_0x55a527710ed0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "NandG";
+v0x55a52772fda0_0 .net "A", 0 0, v0x55a5277318f0_0;  alias, 1 drivers
+v0x55a52772fe40_0 .net "B", 0 0, v0x55a527731e50_0;  alias, 1 drivers
+v0x55a52772ff00_0 .net "NandG", 0 0, L_0x55a5277323e0;  alias, 1 drivers
+v0x55a527730000_0 .net "x", 0 0, L_0x55a527732330;  1 drivers
+S_0x55a52772f420 .scope module, "instanceAnd" "And" 5 3, 3 1 0, S_0x55a52772f1d0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "AndG";
+L_0x55a527732330 .functor AND 1, v0x55a5277318f0_0, v0x55a527731e50_0, C4<1>, C4<1>;
+v0x55a52772f690_0 .net "A", 0 0, v0x55a5277318f0_0;  alias, 1 drivers
+v0x55a52772f7a0_0 .net "AndG", 0 0, L_0x55a527732330;  alias, 1 drivers
+v0x55a52772f860_0 .net "B", 0 0, v0x55a527731e50_0;  alias, 1 drivers
+S_0x55a52772f9b0 .scope module, "instanceNot" "Not" 5 4, 6 1 0, S_0x55a52772f1d0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "X";
+    .port_info 1 /OUTPUT 1 "nX";
+L_0x55a5277323e0 .functor NOT 1, L_0x55a527732330, C4<0>, C4<0>, C4<0>;
+v0x55a52772fbe0_0 .net "X", 0 0, L_0x55a527732330;  alias, 1 drivers
+v0x55a52772fca0_0 .net "nX", 0 0, L_0x55a5277323e0;  alias, 1 drivers
+S_0x55a527730110 .scope module, "instNOT" "Not" 2 7, 6 1 0, S_0x55a527710ed0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "X";
+    .port_info 1 /OUTPUT 1 "nX";
+L_0x55a527731f90 .functor NOT 1, v0x55a5277318f0_0, C4<0>, C4<0>, C4<0>;
+v0x55a527730340_0 .net "X", 0 0, v0x55a5277318f0_0;  alias, 1 drivers
+v0x55a527730400_0 .net "nX", 0 0, L_0x55a527731f90;  alias, 1 drivers
+S_0x55a527730520 .scope module, "instNor" "Nor" 2 10, 7 1 0, S_0x55a527710ed0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "NorG";
+v0x55a527731100_0 .net "A", 0 0, v0x55a5277318f0_0;  alias, 1 drivers
+v0x55a5277311a0_0 .net "B", 0 0, v0x55a527731e50_0;  alias, 1 drivers
+v0x55a527731260_0 .net "NorG", 0 0, L_0x55a527732280;  alias, 1 drivers
+v0x55a527731360_0 .net "x", 0 0, L_0x55a5277321d0;  1 drivers
+S_0x55a527730770 .scope module, "instanceNor" "Not" 7 4, 6 1 0, S_0x55a527730520;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "X";
+    .port_info 1 /OUTPUT 1 "nX";
+L_0x55a527732280 .functor NOT 1, L_0x55a5277321d0, C4<0>, C4<0>, C4<0>;
+v0x55a5277309e0_0 .net "X", 0 0, L_0x55a5277321d0;  alias, 1 drivers
+v0x55a527730ac0_0 .net "nX", 0 0, L_0x55a527732280;  alias, 1 drivers
+S_0x55a527730be0 .scope module, "instanceOr" "Or" 7 3, 8 1 0, S_0x55a527730520;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "OrG";
+L_0x55a5277321d0 .functor OR 1, v0x55a5277318f0_0, v0x55a527731e50_0, C4<0>, C4<0>;
+v0x55a527730e30_0 .net "A", 0 0, v0x55a5277318f0_0;  alias, 1 drivers
+v0x55a527730ef0_0 .net "B", 0 0, v0x55a527731e50_0;  alias, 1 drivers
+v0x55a527731040_0 .net "OrG", 0 0, L_0x55a5277321d0;  alias, 1 drivers
+S_0x55a527731420 .scope module, "instOR" "Or" 2 9, 8 1 0, S_0x55a527710ed0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "OrG";
+L_0x55a527732110 .functor OR 1, v0x55a5277318f0_0, v0x55a527731e50_0, C4<0>, C4<0>;
+v0x55a527731670_0 .net "A", 0 0, v0x55a5277318f0_0;  alias, 1 drivers
+v0x55a527731730_0 .net "B", 0 0, v0x55a527731e50_0;  alias, 1 drivers
+v0x55a5277317f0_0 .net "OrG", 0 0, L_0x55a527732110;  alias, 1 drivers
+    .scope S_0x55a527710ed0;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55a5277318f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55a527731e50_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55a5277318f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55a527731e50_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55a5277318f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55a527731e50_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55a5277318f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55a527731e50_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55a5277318f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55a527731e50_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 23 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0x55a527710ed0;
+T_1 ;
+    %vpi_call 2 27 "$dumpfile", "tbGates.vcd" {0 0 0};
+    %vpi_call 2 28 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x55a527710ed0 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 9;
+    "N/A";
+    "<interactive>";
+    "tbGates.v";
+    "AND.v";
+    "EXOR.v";
+    "NAND.v";
+    "NOT.v";
+    "NOR.v";
+    "OR.v";
