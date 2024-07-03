@@ -17,7 +17,7 @@ A B Bin | D Bout
 
   
     
-Full Subtractor Schematic
+Full Subtractor Schematic  
 ![fs](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/subtractor/Schematic/fs.png)  
   
   
