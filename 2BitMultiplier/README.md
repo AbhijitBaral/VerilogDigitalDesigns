@@ -27,7 +27,7 @@ Multiplier
 
 
 halfAdder  
-![ha]()
+![ha](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/fullAdder/Schematic/ha.png)  
 
 Waveform  
 ![ha](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/2BitMultiplier/Schem/waveform.png)
