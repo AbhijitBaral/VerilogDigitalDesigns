@@ -11,4 +11,7 @@ S | R | Q    | nQ
 1 | 1 | invld| invld  
 
 
-
+Schematic  
+![d](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Latches%20and%20Flipflops/SR_NOR_Latch/Schematic/schem.png)  
+Waveform  
+![f](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Latches%20and%20Flipflops/SR_NOR_Latch/Schematic/waveform.png)
