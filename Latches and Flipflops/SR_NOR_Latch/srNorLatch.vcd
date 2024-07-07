@@ -1,0 +1,53 @@
+$date
+	Sun Jul  7 21:23:37 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tbSrNorLatch $end
+$var wire 1 ! nQ $end
+$var wire 1 " Q $end
+$var reg 1 # R $end
+$var reg 1 $ S $end
+$scope module instnc $end
+$var wire 1 " Q $end
+$var wire 1 # R $end
+$var wire 1 $ S $end
+$var wire 1 ! nQ $end
+$var wire 1 % outNor1 $end
+$var wire 1 & outNor2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x&
+x%
+0$
+0#
+x"
+x!
+$end
+#10
+1"
+1%
+0!
+0&
+1$
+#20
+0$
+#30
+1!
+1&
+0"
+0%
+1#
+#40
+0#
+#50
