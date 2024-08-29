@@ -6,7 +6,7 @@ The FSM has three states, corresponding to the the glowing state of any one of t
 The input set is NULL and state transition occurs each time the clock signal comes.  
 This is a Moore machine, since the lamps that will glow only depends on the state and not on the inputs.  
 
-![wq(https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/cyclicalLamps/state%20diagram.png)
+![wq](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/cyclicalLamps/state%20diagram.png)
 
 
 VCD info: dumpfile cyclic.vcd opened for output.  
