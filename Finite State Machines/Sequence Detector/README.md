@@ -6,4 +6,5 @@ Overlapping occurrences of the pattern are also detected.
 
 * This is a Mealy Machine
 
-![d]()
+state diagram:  
+![d](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/state%20diagram.png)
