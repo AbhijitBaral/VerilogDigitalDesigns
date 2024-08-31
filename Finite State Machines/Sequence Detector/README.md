@@ -9,5 +9,8 @@ Overlapping occurrences of the pattern are also detected.
 state diagram:  
 ![d](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/state%20diagram.png)  
 
+schematics:  
+![ewe](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/schematic.png)
+
 waveform:
 ![ew](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/waveform.png)
