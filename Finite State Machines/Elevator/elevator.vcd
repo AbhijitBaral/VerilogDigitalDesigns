@@ -1,0 +1,105 @@
+$date
+	Sun Sep  1 09:40:13 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_elevator $end
+$var wire 4 ! out [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # floor_status $end
+$var reg 2 $ motion_status [1:0] $end
+$scope module instanceElevator $end
+$var wire 1 " clk $end
+$var wire 1 # floor_status $end
+$var wire 2 % motion_status [1:0] $end
+$var parameter 32 & S0 $end
+$var parameter 32 ' S1 $end
+$var parameter 32 ( S2 $end
+$var parameter 32 ) S3 $end
+$var parameter 32 * S4 $end
+$var reg 4 + out [3:0] $end
+$var reg 3 , present_state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 *
+b11 )
+b10 (
+b1 '
+b0 &
+$end
+#0
+$dumpvars
+b0 ,
+bx +
+bx %
+bx $
+x#
+0"
+bx !
+$end
+#5
+1"
+#10
+0"
+#12
+b1 $
+b1 %
+#15
+b1 ,
+b1 !
+b1 +
+1"
+#17
+b0 $
+b0 %
+#20
+0"
+#25
+1"
+#30
+0"
+#32
+1#
+#35
+b11 ,
+b11 !
+b11 +
+1"
+#37
+0#
+#40
+0"
+#45
+1"
+#47
+b10 $
+b10 %
+#50
+0"
+#55
+1"
+b100 ,
+b100 !
+b100 +
+#57
+b0 $
+b0 %
+#60
+0"
+#65
+1"
+b0 ,
+b0 !
+b0 +
+#70
+0"
+#75
+1"
+#77
