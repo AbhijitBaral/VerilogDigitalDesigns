@@ -39,7 +39,16 @@ floor_status = 0 (The elevator is not at the correct floor )
 |    S1         |     xx        |     1        |    S3      |  0011   |
 |    S2         |     xx        |     1        |    S3      |  0011   |
 |    S3         |     xx        |     x        |    S4      |  0100   |
-|    S4         |     xx        |     x        |    S0      |  0000   |
+|    S4         |     xx        |     x        |    S0      |  0000   |  
+
+## state transition diagram  
+![ds](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Elevator/schematic.png)  
+
+## schematic  
+![ds](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Elevator/schematic.png)  
+
+## waveform  
+![dvd](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Elevator/waveform.png)
 
   
 
