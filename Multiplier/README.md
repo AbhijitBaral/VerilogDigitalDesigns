@@ -4,4 +4,4 @@ This system utilizes the fundamental definition of multiplication which esential
 
 
 Algorithm  
-[dq]!(https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Multiplier/imgs/Algorithm.png)
+![dq](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Multiplier/imgs/Algorithm.png)
