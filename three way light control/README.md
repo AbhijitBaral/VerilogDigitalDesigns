@@ -19,6 +19,13 @@ Let x1 , x2 , and x3 be the input variables that denote the state of each switch
 
 function as the sum of product : 
 f = m1 + m2 + m4 +m7  
+![ds](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/three%20way%20light%20control/pics/SOP.png)  
+
+function as the procuct of sum :  
+![dwswd](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/three%20way%20light%20control/pics/POS.png)  
+
+Implementation using optimized gates : 
+![csa](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/three%20way%20light%20control/pics/optimized.png)
 
 
 
