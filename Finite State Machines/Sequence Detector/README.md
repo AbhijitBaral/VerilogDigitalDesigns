@@ -7,10 +7,10 @@ Overlapping occurrences of the pattern are also detected.
 * This is a Mealy Machine
 
 state diagram:  
-![d](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/state%20diagram.png)  
+![d](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/imgs/state%20diagram.png)  
 
 schematics:  
-![ewe](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/schematic.png)
+![ewe](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/imgs/schematic.png)
 
 waveform:
-![ew](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/waveform.png)
+![ew](https://github.com/AbhijitBaral/VerilogDigitalDesigns/blob/main/Finite%20State%20Machines/Sequence%20Detector/imgs/waveform.png)
